@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    color: papayawhip;
+}
+
+#header {
+    margin: 50px 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+#card-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border: 3px solid papayawhip;
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+    .card:hover {
+        border: 3px dotted #ffc400;
+    }
+
+a {
+    text-decoration: none;
+    color: papayawhip;
+}
+
+    a:hover {
+        text-decoration: underline overline #ff9d00;
+        color: #ffc400;
+    }
+
+
+
+    
